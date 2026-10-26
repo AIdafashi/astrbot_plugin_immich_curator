@@ -1,0 +1,7 @@
+name: astrbot_plugin_immich_curator
+display_name: Immich 素材挑选助手
+desc: 自然语言检索 Immich 照片，展示编号缩略图，选择后取回原图；会话授权与用户隔离。
+version: 1.0.0
+author: AIdafashi
+repo: https://github.com/AIdafashi/astrbot_plugin_immich_curator
+astrbot_version: ">=4.29.3"

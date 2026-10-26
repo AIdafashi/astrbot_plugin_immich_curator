@@ -1,0 +1,7 @@
+{
+  "base_url": {"type": "string", "default": "", "description": "Immich API 地址，包含 /api，例如 https://photos.example.com/api"},
+  "api_key": {"type": "string", "default": "", "description": "Immich API Key，需要 asset.read / asset.view / asset.download"},
+  "allowed_sessions": {"type": "list", "default": [], "description": "允许访问图库的会话ID，先执行 /media whoami；群聊所有成员均能看到结果"},
+  "result_count": {"type": "int", "default": 9, "description": "每次返回的前几个照片匹配，1至12"},
+  "max_original_mb": {"type": "int", "default": 50, "description": "每张原图下载上限MB，仍受聊天平台上传大小限制"}
+}
